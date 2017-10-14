@@ -1,19 +1,6 @@
 import { log } from './log.js'
 // import $ from 'jquery'
 
-import css from './app.scss'
-
-
-console.log(css);
-
-
-
-
-
-
-
-
-
 
 
 // let salut = "salut les gens"

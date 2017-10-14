@@ -1,7 +1,7 @@
 const path = require('path')
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 const ExtractTextPlugin = require("extract-text-webpack-plugin")
-const ManifestPlugin = require('webpack-manifest-plugin')
+// const ManifestPlugin = require('webpack-manifest-plugin')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const dev = process.env.NODE_ENV == "dev"
 
@@ -30,12 +30,12 @@ if (!dev) {
 
 let config = {
   entry: {
-    app: './assets/js/app.js'
+    app: ['./assets/css/app.scss', './assets/js/app.js']
   },
   watch: dev,
   output: {
     path: path.resolve('dist'),
-    filename: dev ? '[name].js' : '[name].[chunkhash:8].js',
+    filename: '[name].js',
     publicPath: '/dist/'
   },
   devtool: dev ? "cheap-module-eval-source-map" : false,
@@ -59,13 +59,31 @@ let config = {
           fallback: "style-loader",
           use: [...cssLoaders, 'sass-loader']
         })
+      },
+      {
+        test: /\.(png|jpg|gif)$/i,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192,
+              name: '[name].[ext]'
+            }
+          },
+          {
+            loader: 'img-loader',
+            options: {
+              // pb avec les jpg
+              enabled: false
+            }
+          }
+        ]
       }
     ]
   },
   plugins : [
     new ExtractTextPlugin({
-      filename: dev ? '[name].css' : '[name].[contenthash:8].css',
-      disable: dev
+      filename: '[name].css'
     })
   ]
 }
@@ -75,7 +93,7 @@ if (!dev) {
     sourceMap: false
   }))
 
-  config.plugins.push(new ManifestPlugin())
+  // config.plugins.push(new ManifestPlugin())
 
   config.plugins.push(new CleanWebpackPlugin(
     ['dist'], 
