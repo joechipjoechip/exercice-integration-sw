@@ -1,0 +1,17 @@
+article{
+  p {
+    margin: 20px 0;
+    line-height: 22px;
+  }
+
+  a {
+    color: black;
+  }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+  article {
+    text-align: center;
+  }
+}

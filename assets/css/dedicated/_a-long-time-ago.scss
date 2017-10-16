@@ -1,0 +1,71 @@
+#a-long-time-ago {
+  font-size: $font-size--small;
+  line-height: 24px;
+
+  h2 {
+    text-align: center;
+    font-size: $font-size--large;
+    margin-bottom: 40px;
+    line-height: 40px;
+  }
+
+  p {
+    margin-top: 5px;
+
+    &:first-of-type {
+      margin-top: 15px;
+    }
+  }
+
+  .section--flex-row {
+    margin: 0;
+
+    #r2d2 {
+      display: block;
+      width: 300px;
+
+      background: url($imgDir + 'r2d2_c3p0.jpg');
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+
+    article {
+      display: block;
+      width: calc(100% - 300px);
+
+      p {
+        margin: 0 0 0 30px;
+      }  
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+  #a-long-time-ago {
+    width: 85%;
+    max-width: 300px;
+
+    .section--flex-row {
+      flex-wrap: wrap;
+
+      #r2d2 {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 40px;
+      }
+
+      article {
+        width: 100%;
+
+        p {
+          width: 100%;
+          text-align: left;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+
+

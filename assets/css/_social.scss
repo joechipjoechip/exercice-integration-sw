@@ -1,0 +1,35 @@
+ul.social-list {
+  li {
+    display: inline-block;
+    vertical-align: middle;
+
+    &:not(:first-of-type):not(:last-of-type) {
+      margin: 0 15px;
+    }
+
+    a {
+      display: block;
+
+      &.icon-fb {
+        background: url($imgDir + 'icon_facebook.png');
+      }
+
+      &.icon-twitter {
+        background: url($imgDir + 'icon_twitter.png');
+      }
+
+      &.icon-instagram {
+        background: url($imgDir + 'icon_instagram.png');
+      }
+
+      &.social-icon {
+        width: 32px;
+        height: 32px;
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+    }
+  }
+}

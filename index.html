@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -11,19 +11,100 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
         <link rel="stylesheet" href="dist/app.css">
     </head>
-    <body>
+    <body class="menu-mobile-closed">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        
+        <nav>
+          <div id="menu-hamburger-open"></div>
+          <div id="menu-hamburger-close"></div>
+          <ul id="main-menu">
+            <li><a href="#">Le coté lumineux</a></li>
+            <li><a href="#">Le coté obscur</a></li>
+            <li><a href="#">L’empire</a></li>
+            <li><a href="#">Les droïdes</a></li>
+            <li><a href="#">Les ewoks</a></li>
+            <li><a href="#">Jabba le hutt</a></li>
+          </ul>
+        </nav>
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <header>
+          <figure></figure>
+        </header>
 
-        <button id="button">Ceci est un bouton</button>
+        <section class="section-container section--flex-row">
+          <article id="the-force-awakens" class="cell--half">
+            <h1>Star Wars, The Force Awakens</h1>
 
+            <p>Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et l’oppression. Les membres de l'Alliance rebelle, devenus la « Résistance », combattent les vestiges de l'Empire réunis sous la bannière du « Premier Ordre ».</p>
+
+            <p>Un mystérieux guerrier, Kylo Ren, semble vouer un culte à Dark Vador et pourchasse les ennemis du Premier Ordre à travers la galaxie. Au même moment, une jeune femme nommée Rey, pilleuse d'épaves sur la planète désertique Jakku, va faire la rencontre de Finn, un Stormtrooper en fuite, une rencontre qui bouleversera sa vie.</p>
+
+            <p>Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et l’oppression. Les membres de l'Alliance rebelle, devenus la « Résistance », combattent les vestiges de l'Empire réunis sous la bannière du « Premier Ordre ».</p>
+
+            <p>Un mystérieux guerrier, <a href="#">Kylo Ren</a>, semble vouer un culte à <a href="#">Dark Vador</a> et pourchasse les ennemis du Premier Ordre à travers la galaxie. Au même moment, une jeune femme nommée Rey, pilleuse d'épaves sur la planète désertique Jakku, va faire la rencontre de Finn, un <a href="#">Stormtrooper</a> en fuite, une rencontre qui bouleversera sa vie.</p>
+
+            <p>Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et l’oppression. Les membres de l'Alliance rebelle, devenus la « <a href="#">Résistance</a> », combattent les vestiges de l'Empire réunis sous la bannière du « <a href="#">Premier Ordre</a> ».</p>
+
+            <p>Un mystérieux guerrier, Kylo Ren, semble vouer un culte à <a href="#">Dark Vador</a> et pourchasse les ennemis du Premier Ordre à travers la galaxie. Au même moment, une jeune femme nommée Rey, pilleuse d'épaves sur la planète désertique Jakku, va faire la rencontre de Finn, un Stormtrooper en fuite, une rencontre qui bouleversera sa vie.</p>
+          </article>
+
+          <aside id="ad-battlefront" class="cell--half"></aside>
+        </section>
+
+        <figure class="figure-wide kylo-ren-1"></figure>
+        
+        <section id="a-long-time-ago" class="section-container">
+          <h2>A long time ago, in a galaxy far, far away ...</h2>
+
+          <section class="section--flex-row">
+            <figure id="r2d2"></figure>
+            <article>
+              <p>La Guerre des étoiles (titre original Star Wars, soit littéralement Guerres Stellaires ) est une épopée cinématographique de science-fiction créée par George Lucas, considérée comme un élément phare du space opera. Prévue à la base pour être une suite de trois trilogies (triptyque), Lucas fut contraint, par manque de moyens techniques, de commencer par la seconde trilogie (l'Épisode IV - Un nouvel espoir) en 1977. La série connut un succès phénoménal partout dans le monde et engendra une très importante communauté de fans.<br>
+              Sans prétendre expliquer le succès du premier film (s'il y avait une recette, cela se saurait), on peut, toutefois, noter que, malgré le manque de moyens (le budget était relativement modeste, les acteurs presque inconnus) :</p>
+            </article>
+          </section>
+
+          <p>- Il fait appel à des références connues et appréciées des jeunes de l'époque : films de cape et d'épée, westerns, péplums, contes de fées et même le Seigneur des Anneaux de J.R.R. Tolkien ; cette œuvre n'apparaît pas comme de la science-fiction au sens strict mais plutôt comme du space fantasy.</p>
+          <p>- Les effets spéciaux, supervisés par Ken Ralston, étaient réellement novateurs, avec notamment la participation de John Dykstra (qui a également participé au premier film de Star Trek), qui avait développé une nouvelle manière d'animer les maquettes des vaisseaux en coordonnant leurs mouvements par ordinateur (Dykstraflex).</p>
+          <p>- Le film a développé un univers cohérent, avec, comme préoccupation constante, autant la création d'une ambiance que l'action proprement dite.</p>
+          <p>- La musique, composée par John Williams, introduit des thèmes récurrents et des leitmotivs (procédé classique mais renforçant la cohérence).</p>
+        </section>
+
+        <figure class="figure-wide stormtroopers"></figure>
+
+        <footer>
+          <div id="copyright">
+            <small>TM Lucasfilm<span>Ltd. all rights reserved</span></small>
+          </div>
+
+          <section id="footer-links" class="section-container section--flex-row">
+            <ul class="footer-links--legal">
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Legal Notices</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+
+            <ul class="footer-links--retail">
+              <li><a href="#">Your California Privacy Rights</a></li>
+              <li><a href="#">Star Wars at Disney Store</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+
+            <ul class="footer-links--social">
+              <li>Follow star wars<li>
+
+              <ul class="social-list">
+                <li><a class="social-icon icon-fb" href="#"></a></li>
+                <li><a class="social-icon icon-twitter" href="#"></a></li>
+                <li><a class="social-icon icon-instagram" href="#"></a></li>
+              </ul>
+            </ul>  
+          </section>
+        </footer>
 
         <script src="dist/app.js"></script>
     </body>

@@ -1,0 +1,58 @@
+// :root {
+  
+// }
+
+html {
+  font-size: $font-size--medium;
+  font-family: 'Open Sans', arial;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  &.menu-mobile-opened {
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    *:not(nav)
+      :not(#menu-hamburger-open)
+      :not(#menu-hamburger-close)
+      :not(#main-menu) {
+      display: none;
+    }
+  }
+}
+
+small {
+  font-size: 100%;
+}
+
+.cell--wide {
+  width: 100%;
+}
+
+.cell--half {
+  width: 50%;
+}
+
+.cell--tier {
+  width: 33%;
+}
+
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+  .cell--wide,
+  .cell--half,
+  .cell--tier {
+    width: 100%;
+  }
+
+}
+
+
+

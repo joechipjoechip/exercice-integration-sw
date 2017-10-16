@@ -1,0 +1,9 @@
+aside {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+  aside {
+    display: none;
+  }
+}

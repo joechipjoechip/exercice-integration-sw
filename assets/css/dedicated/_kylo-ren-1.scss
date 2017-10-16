@@ -1,0 +1,14 @@
+.kylo-ren-1 {
+  height: 500px;
+  
+  background: url($imgDir + 'kiloren.jpg');
+  background-size: cover;
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+  .kylo-ren-1 {
+    height: 400px;
+  }
+
+}

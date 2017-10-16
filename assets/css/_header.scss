@@ -1,0 +1,41 @@
+header {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  background-color: yellow;
+  height: 500px;
+
+  background: url($imgDir + 'header-bg.png');
+
+  figure {
+    position: relative;
+    margin: 0 auto;
+    top: $nav-margin * 2;
+
+    width: 100vw;
+
+    max-width: 738px;
+    height: 344px;
+
+    background: url($imgDir + 'logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+  header {
+    height: 400px;
+
+    figure {
+      height: 180px;
+      max-width: none;
+      top: 0;
+      background-size: contain;
+    }
+  }
+
+}

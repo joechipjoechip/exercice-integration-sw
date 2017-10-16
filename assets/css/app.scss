@@ -1,6 +1,17 @@
-$background: #DDD;
+@import 'vars';
+@import 'font';
+@import 'core';
+@import 'nav';
+@import 'header';
+@import 'section';
+@import 'article';
+@import 'aside';
+@import 'figure';
+@import 'footer';
+@import 'social';
 
-body {
-  // background: url(./test.jpg);
-  transform: translateX(120px);
-}
+@import 'dedicated/the-force-awakens';
+@import 'dedicated/ad-battlefront';
+@import 'dedicated/kylo-ren-1';
+@import 'dedicated/a-long-time-ago';
+@import 'dedicated/stormtroopers';

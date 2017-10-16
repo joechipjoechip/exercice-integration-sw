@@ -1,0 +1,102 @@
+footer {
+  width: 100%;
+  height: 272px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  background: #181818 url($imgDir + 'darthvader.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  color: #9B9B9B;
+  font-size: $font-size--xsmall;
+  text-align: center;
+
+  a {
+    color: #9B9B9B;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  div {
+    text-align: center;
+    margin-bottom: 30px;
+
+    font-weight: $font-weight--bold;
+    font-size: $font-size--small;
+    color: #9B9B9B;
+
+    span {
+      margin-left: 5px;
+
+      text-transform: capitalize;
+      font-weight: $font-weight--regular;
+    }
+  }
+
+  #footer-links {
+    margin: 0 auto;
+
+    div {
+      background-color: yellow;
+    }
+
+    ul {
+
+      line-height: 30px;
+
+      &.footer-links--legal {
+        text-align: left;
+      }
+
+      &.footer-links--social {
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+  
+  footer {
+    background-size: cover;
+
+    #copyright {
+      display: none;
+    }
+
+    #footer-links {
+      flex-wrap: wrap;
+
+      ul.footer-links--legal,
+      ul.footer-links--retail {
+        width: 50%;
+        text-align: center;
+      }
+
+      ul.footer-links--social {
+        width: 100%;
+        position: relative;
+        margin-top: 40px;
+
+        & > li {
+          width: 45%;
+          display: inline-block;
+        }
+      }
+
+    }
+  }
+
+
+}
+
+
+
+
+

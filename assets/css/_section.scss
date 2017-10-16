@@ -1,0 +1,23 @@
+section {
+  margin: $section--topBottom 0;
+
+  &.section-container {
+    width: 90%;
+    max-width: 755px;
+    margin: $section--topBottom auto;
+  }
+
+  &.section--flex-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+  section {
+    &.section-container {
+      margin: ($section--topBottom / 3) auto;
+    }
+  }
+}
