@@ -1,7 +1,9 @@
 .kylo-ren-1 {
+  position: relative;
+  top: 40px;
   height: 500px;
   
-  background: url($imgDir + 'kiloren.jpg');
+  background: url($imgDir + 'kiloren.jpg') no-repeat;
   background-size: cover;
 }
 

@@ -1,10 +1,12 @@
-import { log } from './log.js'
-// import $ from 'jquery'
+const pm = require('./doParallax').doParallax
 
+pm.start()
 
 
 // let salut = "salut les gens"
 // log(salut);
+
+
 
 
 // document.getElementById('button').addEventListener('click', () => {
@@ -13,4 +15,3 @@ import { log } from './log.js'
 //     $('body').css('backgroundColor', 'orange');
 //   })  
 // })
-
