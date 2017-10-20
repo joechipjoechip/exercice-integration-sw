@@ -1,5 +1,5 @@
-<h2>Front-end proof of skills</h2>
-<p>Exercice made in a recruitement cycle, to prove front-end skills and organisation patterns with webpack</p>
+<h2>Front-end "proof of skills"</h2>
+<p>Exercice made in recruitement cycle, to prove front-end skills and organisation patterns with webpack</p>
 
 
 
@@ -28,10 +28,10 @@ npm run prod
 
 <p>The webpack starter-kit comes from another personnal project : <a href="https://github.com/joechipjoechip/my-webpack-starter-pack">Webpack Front-end Personnal (growing) Starter-Pack</a></p>
 
-<p>And I have other online project(s) that you can see as technical tests :</p>
+<p>And I have other online personnal projects that you can see as technical tests as well :</p>
 <ul>
-  <li><a href="https://codepen.io/joechipjoechip/pen/dvKPML">Using Wikipedia API</a></li>
-  <li>Wes bos training cycle : <a href="https://github.com/joechipjoechip/30-days-of-Javascript">30 days of Vanilla Javascript</a></li>
+  <li><a href="https://codepen.io/joechipjoechip/pen/dvKPML">Playing with Wikipedia API</a> (codepen)</li>
+  <li><a href="https://github.com/joechipjoechip/30-days-of-Javascript">30 days of Vanilla Javascript</a> : a Wes bos training cycle (repo)</li>
   <li> .. and i'll add some others along my path throught the world of recuitements process ;)</li>
 </ul>
 
