@@ -1,6 +1,8 @@
 #ad-battlefront{
   width: 300px;
   height: 600px;
+  margin-right: 0;
+  display: inline-block;
 
   background: url($imgDir + 'ad.jpg');
   background-size: cover;
