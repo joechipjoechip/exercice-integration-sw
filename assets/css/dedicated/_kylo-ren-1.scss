@@ -1,10 +1,9 @@
 .kylo-ren-1 {
+  @include backgrounds('kiloren', 'jpg', transparent, cover, 50% 50%, no-repeat);
+
   position: relative;
   top: 40px;
   height: 500px;
-  
-  background: url($imgDir + 'kiloren.jpg') no-repeat;
-  background-size: cover;
 }
 
 @media screen and (max-width: $breakpoint-mobile) {

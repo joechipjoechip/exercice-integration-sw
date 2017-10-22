@@ -1,14 +1,12 @@
 header {
+  @include backgrounds('header-bg', 'png', #000000, cover, 50% 50%, repeat-x);
+
   width: 100%;
   height: 500px;
 
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-
-  background: url($imgDir + 'header-bg.png');
-  background-size: 100%;
-  background-position: 50% 50%;
 
   figure {
     position: relative;
@@ -21,7 +19,6 @@ header {
     height: 344px;
 
     background: url($imgDir + 'logo.png');
-    // background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
   }

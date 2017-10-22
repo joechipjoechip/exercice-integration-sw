@@ -1,0 +1,23 @@
+@mixin backgrounds($path, $ext, $color, $size, $pos: center center, $repeat: no-repeat) {
+
+  $bg1x_path: "#{$imgDir}#{$path}.#{$ext}";
+  $bg2x_path: "#{$imgDir}#{$path}\-2x.#{$ext}";
+ 
+  background: $color url("#{$bg1x_path}");
+  background-size: $size;
+  background-position: $pos;
+  background-repeat: $repeat;
+  
+ 
+  @media all and (-webkit-min-device-pixel-ratio : 1.5),
+  all and (-o-min-device-pixel-ratio: 3/2),
+  all and (min--moz-device-pixel-ratio: 1.5),
+  all and (min-device-pixel-ratio: 1.5) {
+
+    background: $color url("#{$bg2x_path}");
+    background-size: $size;
+    background-position: $pos;
+    background-repeat: $repeat;
+    
+  }
+}
