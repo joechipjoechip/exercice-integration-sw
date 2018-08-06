@@ -40,6 +40,7 @@ npm run prod
   <li><a href="http://gfgf.surge.sh">A backup of a website</a> I made as freelancer (Angular 1.x)</li>
   <li><a href="https://github.com/joechipjoechip/the_hacking_project">4 weeks of Ruby</a> with <a href="https://www.thehackingproject.org/">The hacking Project</a> (repo)</li>
   <li><a href="http://intersectionobserverchrome.surge.sh/">Fun : playing with intersectionObserver API</li>
+  <li><a href="http://materialbubbles.surge.sh/">Fun : playing with Canvas API</li>
 </ul>
 
 See ya !
