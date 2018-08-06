@@ -9,7 +9,7 @@ article{
   }
 }
 
-@media screen and (max-width: $breakpoint-mobile) {
+@media (max-width: $breakpoint-mobile) {
 
   article {
     text-align: center;

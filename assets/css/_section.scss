@@ -15,7 +15,7 @@ section {
   }
 }
 
-@media screen and (max-width: $breakpoint-mobile) {
+@media (max-width: $breakpoint-mobile) {
   section {
     &.section-container {
       margin: ($section--topBottom / 3) auto;

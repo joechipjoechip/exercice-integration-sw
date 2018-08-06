@@ -38,7 +38,7 @@
   }
 }
 
-@media screen and (max-width: $breakpoint-mobile) {
+@media (max-width: $breakpoint-mobile) {
   #a-long-time-ago {
     width: 85%;
     max-width: 300px;

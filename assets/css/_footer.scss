@@ -58,7 +58,7 @@ footer {
   }
 }
 
-@media screen and (max-width: $breakpoint-mobile) {
+@media (max-width: $breakpoint-mobile) {
   
   footer {
     background-size: cover;

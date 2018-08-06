@@ -54,7 +54,7 @@ button {
 }
 
 
-@media screen and (max-width: $breakpoint-mobile) {
+@media (max-width: $breakpoint-mobile) {
 
   .cell--wide,
   .cell--half,

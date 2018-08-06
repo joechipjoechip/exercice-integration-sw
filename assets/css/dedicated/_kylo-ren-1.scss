@@ -6,7 +6,7 @@
   height: 500px;
 }
 
-@media screen and (max-width: $breakpoint-mobile) {
+@media (max-width: $breakpoint-mobile) {
 
   .kylo-ren-1 {
     height: 400px;
