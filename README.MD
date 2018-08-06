@@ -36,11 +36,11 @@ npm run prod
 <p>And I have other online personnal projects that you can see as technical tests as well :</p>
 <ul>
   <li><a href="https://codepen.io/joechipjoechip/pen/dvKPML?editors=0010">Playing with Wikipedia API and Gsap</a> (codepen)</li>
-  <li><a href="https://github.com/joechipjoechip/30-days-of-Javascript">30 days of Vanilla Javascript</a> : a Wes bos training cycle (repo)</li>
-  <li><a href="http://gfgf.surge.sh">A backup of a website</a> I made as freelancer (Angular 1.x)</li>
+  <li><a href="https://github.com/joechipjoechip/30-days-of-Javascript">30 days of Vanilla Javascript</a> : a Wes bos training cycle (repo)  (<a href="http://lio30jjs.surge.sh/">hosted version here</a>)</li>
+  <li><a href="http://gfgf.surge.sh">A hosted backup of a website</a> I made as freelancer (Angular 1.x)</li>
   <li><a href="https://github.com/joechipjoechip/the_hacking_project">4 weeks of Ruby</a> with <a href="https://www.thehackingproject.org/">The hacking Project</a> (repo)</li>
-  <li><a href="http://intersectionobserverchrome.surge.sh/">Fun : playing with intersectionObserver API</a></li>
-  <li><a href="http://materialbubbles.surge.sh/">Fun : playing with Canvas API</a></li>
+  <li><a href="http://intersectionobserverchrome.surge.sh/">Fun : playing with intersectionObserver API</a> (hosted)</li>
+  <li><a href="http://materialbubbles.surge.sh/">Fun : playing with Canvas API</a> (hosted)</li>
 </ul>
 
 See ya !
