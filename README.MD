@@ -27,6 +27,7 @@ npm run prod
 <hr>
 
 <h3> - - > you can also find an hosted version of this exercice <a href="http://swsw.surge.sh">here</a></h3>
+<p>(made for desktop and iPhone6/7/8)</p>
 
 <hr>
 
