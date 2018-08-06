@@ -30,9 +30,11 @@ npm run prod
 
 <p>And I have other online personnal projects that you can see as technical tests as well :</p>
 <ul>
-  <li><a href="https://codepen.io/joechipjoechip/pen/dvKPML">Playing with Wikipedia API</a> (codepen)</li>
+  <li><a href="https://codepen.io/joechipjoechip/pen/dvKPML?editors=0010">Playing with Wikipedia API and Gsap</a> (codepen)</li>
   <li><a href="https://github.com/joechipjoechip/30-days-of-Javascript">30 days of Vanilla Javascript</a> : a Wes bos training cycle (repo)</li>
-  <li> .. and i'll add some others along my path throught the world of recuitements process ;)</li>
+  <li><a href="http://gfgf.surge.sh">A backup of a website</a> I made as freelancer</li>
+  <li><a href="http://gfgf.surge.sh">An hosted version</a> of this repo</li>
+  <li><a href="https://github.com/joechipjoechip/the_hacking_project">4 weeks of Ruby</a> with <a href="https://www.thehackingproject.org/">The hacking Project</a></li>
 </ul>
 
 Cheers.
