@@ -22,7 +22,11 @@ npm run prod
 ```
 <hr>
 
-<h3>Final . Run your own server and look at index.html</h3>
+<h3>Final : Run your own server and look at index.html</h3>
+
+<hr>
+
+<h3> - - > you can also find an hosted version of this exercice <a href="http://swsw.surge.sh">here</a></h3>
 
 <hr>
 
@@ -33,8 +37,7 @@ npm run prod
   <li><a href="https://codepen.io/joechipjoechip/pen/dvKPML?editors=0010">Playing with Wikipedia API and Gsap</a> (codepen)</li>
   <li><a href="https://github.com/joechipjoechip/30-days-of-Javascript">30 days of Vanilla Javascript</a> : a Wes bos training cycle (repo)</li>
   <li><a href="http://gfgf.surge.sh">A backup of a website</a> I made as freelancer</li>
-  <li><a href="http://swsw.surge.sh">An hosted version</a> of this repo</li>
   <li><a href="https://github.com/joechipjoechip/the_hacking_project">4 weeks of Ruby</a> with <a href="https://www.thehackingproject.org/">The hacking Project</a></li>
 </ul>
 
-Cheers.
+See ya !
